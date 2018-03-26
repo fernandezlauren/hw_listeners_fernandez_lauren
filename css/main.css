@@ -15,3 +15,26 @@ html {
 body {
     background: #ffb6c1;
 }
+
+.container {
+    background-color: #fef9e6;
+    padding:20px;
+    text-align: center;
+    border: 4px dotted pink;
+
+}
+
+input {
+    border: 1px solid #7d848e;
+    padding: 16px 32px;
+    margin: 4px 2px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #e04aa1;
+    border: none;
+}
+
+email{
+    padding-left: 10px;
+}
