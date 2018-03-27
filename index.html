@@ -12,11 +12,11 @@
     <script src="js/main.js"></script>
 
     <div class="container">
-        <form class="form" action="index.html" method="post">
-            first name: <input type="text" name="firstname"/><br/>
-            last name: <input type="text" name="lastname"/><br/>
-            email: <input type="text" name="email"/><br/>
-            message: <input type="text" name="message"/><br/>
+        <form class="form" action="index.html" method="post" onsubmit="formlistener">
+            first name: <input type="text" name="firstname" id="firstname"/><br/>
+            last name: <input type="text" name="lastname" id="lastname"/><br/>
+            email: <input type="text" name="email" id="email"/><br/>
+            message: <input type="text" name="message" id="message"/><br/>
             <input type="submit" name="submit"/><br/>
         </form>
     </div>
